@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="gun" msprop:Generator_TableClassName="gunDataTable" msprop:Generator_TableVarName="tablegun" msprop:Generator_TablePropName="gun" msprop:Generator_RowDeletingName="gunRowDeleting" msprop:Generator_RowChangingName="gunRowChanging" msprop:Generator_RowEvHandlerName="gunRowChangeEventHandler" msprop:Generator_RowDeletedName="gunRowDeleted" msprop:Generator_UserTableName="gun" msprop:Generator_RowChangedName="gunRowChanged" msprop:Generator_RowEvArgName="gunRowChangeEvent" msprop:Generator_RowClassName="gunRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="guntype" msprop:Generator_ColumnVarNameInTable="columnguntype" msprop:Generator_ColumnPropNameInRow="guntype" msprop:Generator_ColumnPropNameInTable="guntypeColumn" msprop:Generator_UserColumnName="guntype" type="xs:string" minOccurs="0" />
+              <xs:element name="bullername" msprop:Generator_ColumnVarNameInTable="columnbullername" msprop:Generator_ColumnPropNameInRow="bullername" msprop:Generator_ColumnPropNameInTable="bullernameColumn" msprop:Generator_UserColumnName="bullername" type="xs:string" minOccurs="0" />
+              <xs:element name="bulletgran" msprop:Generator_ColumnVarNameInTable="columnbulletgran" msprop:Generator_ColumnPropNameInRow="bulletgran" msprop:Generator_ColumnPropNameInTable="bulletgranColumn" msprop:Generator_UserColumnName="bulletgran" type="xs:string" minOccurs="0" />
+              <xs:element name="loadgran" msprop:Generator_ColumnVarNameInTable="columnloadgran" msprop:Generator_ColumnPropNameInRow="loadgran" msprop:Generator_ColumnPropNameInTable="loadgranColumn" msprop:Generator_UserColumnName="loadgran" type="xs:string" minOccurs="0" />
+              <xs:element name="powdertype" msprop:Generator_ColumnVarNameInTable="columnpowdertype" msprop:Generator_ColumnPropNameInRow="powdertype" msprop:Generator_ColumnPropNameInTable="powdertypeColumn" msprop:Generator_UserColumnName="powdertype" type="xs:string" minOccurs="0" />
+              <xs:element name="primertype" msprop:Generator_ColumnVarNameInTable="columnprimertype" msprop:Generator_ColumnPropNameInRow="primertype" msprop:Generator_ColumnPropNameInTable="primertypeColumn" msprop:Generator_UserColumnName="primertype" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="_date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
